@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const peopleRouter = require("./routes/people");
 const authRouter = require("./routes/auth");
+const mongoose = require('./')
 
 // static assets
 app.use(express.static("./methods-public"));
